@@ -109,7 +109,7 @@ nav li:hover a {
 }
 
 .solar2 {
-  background-image: url("img/solar2.PNG"),
+  background-image: url("img/solar2.png"),
     linear-gradient(to bottom, rgb(1, 17, 17), rgba(0, 0, 0, 0.815));
   background-position: center;
   background-repeat: no-repeat;

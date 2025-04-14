@@ -1,0 +1,95 @@
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Space between logo and title */
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            color: lightblue;
+            text-align: center; /* Center the title */
+            flex-grow: 1; /* Allow title to take up space */
+        }
+
+        header img {
+            max-height: 50px;
+            cursor: pointer; /* Change cursor on hover */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        main h2 {
+            margin-bottom: 10px;
+        }
+
+        main ul {
+            list-style-type: decimal;
+            padding-left: 0; /* Remove default padding */
+        }
+
+        main li {
+            padding: 15px;
+            margin-bottom: 10px;
+            background-size: 80% auto; /* Cover the entire width */
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 30vh;
+        }
+        @media (min-width: 300px) {
+            main li {
+                padding: 15px;
+                margin-bottom: 15px;
+                background-size: 50% auto;
+                background-repeat: no-repeat;
+                background-position: left;
+                height: 30vh;
+            }
+        }
+
+        @media (min-width: 950px) {
+            main li {
+                padding: 15px;
+                margin-bottom: 15px;
+                background-size: 20% auto;
+                background-repeat: no-repeat;
+                background-position: left;
+                height: 40vh;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-button {
+            background-color: lightblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            header h1 {
+                margin: 10px 0;
+            }
+        }

@@ -123,6 +123,9 @@
   color: #1d1d77;
   font-size: 20px;
 }
+.phone-number {
+  color: #f2f2f7;
+}
 
 /* form */
 .form > .form-group {
